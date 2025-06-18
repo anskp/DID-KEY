@@ -1,0 +1,30 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.14",
+    "@openzeppelin/contracts": "^5.3.0",
+    "@typechain/hardhat": "^9.1.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.24.3",
+    "typechain": "^8.3.2"
+  },
+  "dependencies": {
+    "ethers": "^5.8.0",
+    "fireblocks-sdk": "^5.38.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "did": "did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "ipfsMetadata": "bafkreif4qrwwafewomgl3pubnrhzukj4zs54zqxyt6qgden675f73croga",
+  "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "walletProofs": [
+    {
+      "walletAddress": "0x50e5EAC33D569A38083411535D5fA25178aFB1C8",
+      "blockchain": "ETH_TEST5",
+      "signature": "0xef409ccaac1ae913b3466f45db317f2cafb543cb94907bed50d8ce0d3fad7583511b2cf4aed66d20856114362d122bd0c94f638f4c8039413a0922bcc7dcae5a1c",
+      "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+      "signatureType": "EIP191",
+      "fireblocksTransactionId": "97628522-8a43-40e6-aa64-9d4cc4fe4f33"
+    }
+  ],
+  "generatedAt": "2025-06-17T17:30:00.140Z",
+  "vaultId": "23"
+}

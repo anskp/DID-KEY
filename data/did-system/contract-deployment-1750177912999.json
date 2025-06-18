@@ -1,0 +1,21 @@
+{
+  "contractAddress": "0x4188f58faFcCfA4Ed59b11eE891E4915E3779127",
+  "deployerAddress": "0x85b0725916b0a9A7745679BdecbA2F20e0a88b1E",
+  "contractOwner": "0x50e5EAC33D569A38083411535D5fA25178aFB1C8",
+  "deploymentTxHash": "0xebf9fe9eefadf92c84c9bc177efae6d4f2860201fbbaabf672119443d70911de",
+  "ownershipTransferTxHash": "0x0d91996a6abf9545fb3774c620d4db443d0b4eff3055713db918594c6b702c58",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2025-06-17T16:31:52.998Z",
+  "gasUsed": {
+    "deployment": "1968538",
+    "ownership": "28631",
+    "total": "1997169"
+  },
+  "gasPrice": "1507437830",
+  "totalCost": "0.00301060810350327",
+  "did": "did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "ipfsCid": "bafkreif4qrwwafewomgl3pubnrhzukj4zs54zqxyt6qgden675f73croga",
+  "fireblocksWalletAddress": "0x50e5EAC33D569A38083411535D5fA25178aFB1C8",
+  "phantomWalletAddress": "0x85b0725916b0a9A7745679BdecbA2F20e0a88b1E"
+}

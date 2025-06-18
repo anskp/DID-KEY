@@ -1,0 +1,48 @@
+{
+  "authentication": {
+    "id": "auth-key-1",
+    "publicKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "arwMH6_smTbSDr5NtBJFNnVPTra6eulaWv0sJYIYzqI",
+      "y": "wd4ZqFjwG8KlEblX2QC-BCJeQaDlJM-d_Q33mKrclQY"
+    },
+    "privateKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "arwMH6_smTbSDr5NtBJFNnVPTra6eulaWv0sJYIYzqI",
+      "y": "wd4ZqFjwG8KlEblX2QC-BCJeQaDlJM-d_Q33mKrclQY",
+      "d": "SYpyHZLBQKsM3Xkec8q_IGOe7CZD9Lzx3w2XoyCdEwA"
+    }
+  },
+  "update": {
+    "publicKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "g7R78jh8gGMeS-BRLVsS7JDLAEuO4S3nNj-bOH9x7OU",
+      "y": "eg7jIVOfRnTwSYo-NGzb1A0R_vXNR0ySZ4wddL1uSTw"
+    },
+    "privateKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "g7R78jh8gGMeS-BRLVsS7JDLAEuO4S3nNj-bOH9x7OU",
+      "y": "eg7jIVOfRnTwSYo-NGzb1A0R_vXNR0ySZ4wddL1uSTw",
+      "d": "XomS179SmgwOLsHf3SFwIfTF8XVDusABGUVtZhPWarI"
+    }
+  },
+  "recovery": {
+    "publicKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "5NzRCbimQGp5GQWBHMq2OAD57-FJc9ROAVPo-rGZXAU",
+      "y": "-oBl6o-vMsZ2UWgcP82uNHNGMWd2qOI0Gu_AbX1QUF8"
+    },
+    "privateKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "5NzRCbimQGp5GQWBHMq2OAD57-FJc9ROAVPo-rGZXAU",
+      "y": "-oBl6o-vMsZ2UWgcP82uNHNGMWd2qOI0Gu_AbX1QUF8",
+      "d": "4_JBhCJfJD2MWNZHW6qtSlUrayZpIFeW4kEYqR1AyTs"
+    }
+  }
+}

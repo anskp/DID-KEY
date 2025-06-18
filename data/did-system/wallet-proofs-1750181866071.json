@@ -1,0 +1,36 @@
+{
+  "did": "did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "ipfsMetadata": "bafkreif4qrwwafewomgl3pubnrhzukj4zs54zqxyt6qgden675f73croga",
+  "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "walletProofs": [
+    {
+      "walletAddress": "0x50e5EAC33D569A38083411535D5fA25178aFB1C8",
+      "blockchain": "ETH_TEST5",
+      "signature": "0xef409ccaac1ae913b3466f45db317f2cafb543cb94907bed50d8ce0d3fad7583511b2cf4aed66d20856114362d122bd0c94f638f4c8039413a0922bcc7dcae5a1c",
+      "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+      "signatureType": "EIP191",
+      "signingMethod": "TYPED_MESSAGE",
+      "fireblocksTransactionId": "e12037b8-c0fe-4b98-90c9-b4882d5e6ef8"
+    },
+    {
+      "walletAddress": "tb1q4vy5q02zwmxjmzm2s3p2294xgnk980dtvv5dlk",
+      "blockchain": "BTC_TEST",
+      "signature": "361e1559327fcbefcbdf0eea1cb25a46c5214059a0d53e922186482b652abc0c2ef3fe3bba7125d1ddb0a6268ad0ead0d73e7af23a15654c343c23dc9d8d5377",
+      "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+      "signatureType": "BITCOIN_MESSAGE",
+      "signingMethod": "RAW",
+      "fireblocksTransactionId": "d51ed5da-443e-4c78-bf2a-e7ed7b8a85ce"
+    },
+    {
+      "walletAddress": "6Wan54UZquukgE6mi3uoLcE2JcFmaavqhnfFuhsiahcc",
+      "blockchain": "SOL_TEST",
+      "signature": "ea73b2428ccfd1c181167b11d2abee0e0a7a4d51167d686df09033304f917bf5a0105bb3fff593552cfc2b7fbce84437111738aa99fd720eda8dd14b1af73806",
+      "message": "DID Ownership Proof for: did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+      "signatureType": "SOLANA_MESSAGE",
+      "signingMethod": "RAW",
+      "fireblocksTransactionId": "a2619cf8-b2f1-4dde-aa76-bbd850855422"
+    }
+  ],
+  "generatedAt": "2025-06-17T17:37:46.071Z",
+  "vaultId": "23"
+}

@@ -1,0 +1,9 @@
+{
+  "did": "did:key:z6Mkhpjv1U7bGMGNCwEFEAFwgoRgeJAtYg7MUNDW81jDkgN9",
+  "contract": "0x4188f58faFcCfA4Ed59b11eE891E4915E3779127",
+  "txHash": "0x4ff6cc08aa81f42b76982ffafc877e3cf7a5cdf26a0f81ee7222045c40d0e865",
+  "fireblocksSigningTxId": "60dbbb33-135c-42bc-a81a-7d2a68871d54",
+  "walletAddress": "0x50e5EAC33D569A38083411535D5fA25178aFB1C8",
+  "signature": "0xef409ccaac1ae913b3466f45db317f2cafb543cb94907bed50d8ce0d3fad7583511b2cf4aed66d20856114362d122bd0c94f638f4c8039413a0922bcc7dcae5a1c",
+  "timestamp": "2025-06-17T16:43:04.922Z"
+}

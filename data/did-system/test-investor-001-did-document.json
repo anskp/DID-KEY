@@ -1,0 +1,75 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+  "verificationMethod": [
+    {
+      "id": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+      "publicKeyMultibase": "z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+    }
+  ],
+  "authentication": [
+    "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+  ],
+  "assertionMethod": [
+    "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+  ],
+  "keyAgreement": [
+    "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+  ],
+  "capabilityInvocation": [
+    "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+  ],
+  "capabilityDelegation": [
+    "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd"
+  ],
+  "service": [
+    {
+      "id": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#linked-wallet-hashes",
+      "type": "LinkedWalletHashes",
+      "serviceEndpoint": "https://gateway.pinata.cloud/ipfs/bafkreihbbrovd25wtln3a27teh6mpvdxc6q3fi4xo4bz2awpbmgzi7jfs4",
+      "description": "Cross-chain wallet address hashes for investor identity verification",
+      "properties": {
+        "ipfsCID": "bafkreihbbrovd25wtln3a27teh6mpvdxc6q3fi4xo4bz2awpbmgzi7jfs4",
+        "purpose": "investor-identity",
+        "hashAlgorithm": "sha256",
+        "supportedChains": [
+          "bitcoin",
+          "ethereum",
+          "solana"
+        ],
+        "version": "1.0.0",
+        "createdAt": "2025-06-17T18:42:34.074Z"
+      }
+    },
+    {
+      "id": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd#verification-service",
+      "type": "WalletVerificationService",
+      "serviceEndpoint": "https://api.example.com/verify-wallet-ownership",
+      "description": "Service for verifying wallet ownership through signature challenges",
+      "properties": {
+        "supportedMethods": [
+          "signature-challenge"
+        ],
+        "supportedChains": [
+          "bitcoin",
+          "ethereum",
+          "solana"
+        ],
+        "responseFormat": "W3C-VC"
+      }
+    }
+  ],
+  "metadata": {
+    "investorId": "test-investor-001",
+    "purpose": "Cross-chain investor identity",
+    "createdAt": "2025-06-17T18:42:34.074Z",
+    "version": "1.0.0",
+    "walletHashesIPFS": "bafkreihbbrovd25wtln3a27teh6mpvdxc6q3fi4xo4bz2awpbmgzi7jfs4",
+    "generatedWith": "manual-construction-didkit-wasm"
+  }
+}

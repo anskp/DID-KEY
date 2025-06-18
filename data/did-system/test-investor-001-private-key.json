@@ -1,0 +1,13 @@
+{
+  "investorId": "test-investor-001",
+  "did": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+  "keyType": "Ed25519",
+  "privateKeyJWK": {
+    "kty": "OKP",
+    "crv": "Ed25519",
+    "x": "odN9pSnVeXuNxON-1WehOQo8lUiE1CqBGeZDB1rp1YQ",
+    "d": "PHvh75QDMmSBAabQaUdCZZ2FU7Kain9zUwPx0SfqIEk"
+  },
+  "createdAt": "2025-06-17T18:42:34.085Z",
+  "warning": "KEEP THIS FILE SECURE - Contains private key material"
+}
