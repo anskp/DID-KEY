@@ -1,0 +1,19 @@
+{
+  "contractName": "SBT",
+  "deploymentTx": "0x803805ee9c81a492eb3d8f6b07831d1674d415e4dd136884cf1660315d5c69cd",
+  "deployer": "0x85b0725916b0a9A7745679BdecbA2F20e0a88b1E",
+  "network": "sepolia",
+  "chainId": "11155111",
+  "gasUsed": "1908184",
+  "gasPrice": "1000342",
+  "blockNumber": "pending",
+  "deployedAt": "2025-06-18T23:03:27.381Z",
+  "openzeppelinVersion": "v5.0+",
+  "contractFeatures": {
+    "soulbound": true,
+    "vcHashRegistry": true,
+    "ipfsMetadata": true,
+    "upgradableVCs": true,
+    "accessControl": true
+  }
+}

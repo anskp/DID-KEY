@@ -1,30 +1,40 @@
 {
-  "name": "smart-contracts",
+  "name": "did-smart-contracts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Smart contracts for DID-based investor identity system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network mumbai",
+    "verify:sepolia": "npx hardhat run scripts/verify.js --network sepolia",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "size": "npx hardhat size-contracts",
+    "gas": "REPORT_GAS=true npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "lint": "npx eslint . --ext .js",
+    "lint:fix": "npx eslint . --ext .js --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^2.0.9",
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@nomicfoundation/hardhat-verify": "^2.0.14",
-    "@openzeppelin/contracts": "^5.3.0",
-    "@typechain/hardhat": "^9.1.0",
-    "dotenv": "^16.5.0",
-    "hardhat": "^2.24.3",
-    "typechain": "^8.3.2"
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "chai": "^4.2.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "typechain": "^8.3.0"
   },
   "dependencies": {
-    "ethers": "^5.8.0",
-    "fireblocks-sdk": "^5.38.0"
-  },
-  "directories": {
-    "test": "test"
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0"
   }
 }

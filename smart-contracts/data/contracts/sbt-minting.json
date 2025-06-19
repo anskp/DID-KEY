@@ -1,0 +1,14 @@
+{
+  "tokenId": "1",
+  "owner": "0x8a20825D281147C8F0D879B64285EFb7a918eaC4",
+  "did": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+  "tokenURI": "ipfs://bafkreibw3ehf6minvesw22cmkggn5ortcxp2dpwdshnkufha5zfnsunony",
+  "vcHash": "0xbc1e53d4623266d8e398d6c2b7882c852d0ab03809c7466d853f7458f48037e1",
+  "transactionHash": "0xc3628c995d3523a877b21634ad84e1eac93392b5cddad8749cd7e127d44a7253",
+  "blockNumber": 8579066,
+  "gasUsed": "351513",
+  "contractAddress": "0xFDd44A7d73bC5f96d21367034B94d218341AAF92",
+  "mintedAt": "2025-06-18T23:59:02.391Z",
+  "network": "sepolia",
+  "chainId": "11155111"
+}

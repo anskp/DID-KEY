@@ -1,0 +1,11 @@
+{
+  "vcId": "urn:uuid:12345678-1234-5678-1234-567812345678",
+  "vcType": "KYCVerifiedCredential",
+  "vcIssuer": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+  "vcSubject": "did:key:z6MkqLxjCSeSxfT1Uy9WGSTyh2d4Qm7ZGeUmY3BGoxE78ZMd",
+  "vcIPFSUri": "ipfs://bafkreibw3ehf6minvesw22cmkggn5ortcxp2dpwdshnkufha5zfnsunony",
+  "vcIPFSUrl": "https://gateway.pinata.cloud/ipfs/bafkreibw3ehf6minvesw22cmkggn5ortcxp2dpwdshnkufha5zfnsunony",
+  "vcCreatedAt": "2025-06-19T16:52:15.234Z",
+  "vcExpiresAt": "2026-06-19T16:52:15.234Z",
+  "vcStatus": "active"
+} 
